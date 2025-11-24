@@ -1,0 +1,173 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #fff;
+  color: #333;
+}
+
+/* HEADER */
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #8f4226;
+  color: white;
+  padding: 15px 30px;
+}
+
+.topbar .logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.topbar .nav-right a {
+  color: white;
+  text-decoration: none;
+}
+
+/* BANNER */
+.banner {
+  background: #9e9d9d;
+  color: rgb(97, 82, 82);
+  text-align: center;
+  padding: 12px;
+  font-weight: bold;
+}
+
+/* FILTER */
+.filter-bar {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  background: #f8f8f8;
+  padding: 15px;
+}
+
+.filter-bar button {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.filter-bar button:hover {
+  background: #e60000;
+  color: white;
+}
+
+/* LIST MOBIL */
+.car-list {
+  padding: 20px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.car-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #eee;
+  padding: 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.car-item:hover {
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+}
+
+.car-image img {
+  width: 220px;
+  height: auto;
+}
+
+.car-info {
+  flex: 1;
+  margin-left: 30px;
+}
+
+.car-info .category {
+  font-size: 12px;
+  font-weight: bold;
+  color: #3d5b7b;
+}
+
+.car-info h3 {
+  margin: 8px 0;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.features li {
+  font-size: 13px;
+  background: #f4f4f4;
+  padding: 5px 8px;
+  border-radius: 4px;
+}
+
+.car-price {
+  text-align: right;
+}
+
+.car-price h2 {
+  color: #c40000;
+  margin-bottom: 10px;
+}
+
+.btn-choose {
+  background: #c40000;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.btn-choose:hover {
+  background: #ff0000;
+}
+/* KONTAK */
+.contact {
+  background: #f4f4f4;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.contact h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #1B3C53;
+}
+
+.contact a {
+  color: #1B3C53;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  color: #ff9900;
+}
+
+/* FOOTER */
+footer {
+  background: #8f4226;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
